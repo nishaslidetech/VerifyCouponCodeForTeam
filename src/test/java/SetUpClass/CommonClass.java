@@ -418,7 +418,7 @@ public class CommonClass extends BaseClass {
 			WebElement ApplyCoupon = wait
 					.until(ExpectedConditions.elementToBeClickable(By.xpath(OR.getProperty("apply_Coupon"))));
 			ApplyCoupon.click();
-
+			Thread.sleep(2000);
 			success_Message = wait
 					.until(ExpectedConditions.elementToBeClickable(By.xpath(OR.getProperty("success_Message"))))
 					.getText();

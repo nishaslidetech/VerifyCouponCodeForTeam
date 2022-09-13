@@ -19,6 +19,7 @@ public class Verify_40_Delete_Coupon extends BaseClass {
 	@Given("User is on Home Page then click on Signup button")
 	public void user_is_on_home_page_then_click_on_signup_button() throws Throwable {
 		Thread.sleep(3000);
+		ClearBrowserCache();
 		driver.get(AppURL);
 
 		log.info("It's opening the website URL");

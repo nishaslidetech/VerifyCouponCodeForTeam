@@ -31,6 +31,7 @@ public class Verify_5OFF_Coupon extends BaseClass {
 
 	public void User_is_on_Home_Page_and_click_on_Login_button() throws Throwable {
 		Thread.sleep(3000);
+		ClearBrowserCache();
 		driver.get(AppURL);
 
 		log.info("It's opening the website URL");
