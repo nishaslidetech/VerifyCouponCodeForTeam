@@ -20,6 +20,7 @@ public class Verify_Summer35_Copoun extends BaseClass {
 	@Given("User is on Home Page and click on Signup button")
 	public void user_is_on_home_page_and_click_on_signup_button() throws Throwable {
 		Thread.sleep(3000);
+		BaseClass.ClearBrowserCache();
 		driver.get(AppURL);
 
 		log.info("It's opening the website URL");

@@ -115,23 +115,23 @@ public class Verify_5OFF_Coupon extends BaseClass {
 	@Then("again select the radio button for coupon code and paypal option")
 	public void again_select_the_radio_button_for_coupon_code_and_paypal_option() throws InterruptedException {
 
-		//commonPage.payPalOPtion();
+		commonPage.payPalOPtion();
 
 	}
 
 	@Then("verify the price for paypal")
 	public void verify_the_price_for_paypal() {
 
-		//verify_price = commonPage.verifyPrice();
+		verify_price = commonPage.verifyPrice();
 
-		//Assert.assertTrue("5off coupon is not applied successfully", verify_price.equals(monthy_Price));
+		Assert.assertTrue("5off coupon is not applied successfully", verify_price.equals(monthy_Price));
 
 	}
 
 	@Then("remove the coupon code and check the message")
 	public void remove_the_coupon_code_and_check_the_message() throws InterruptedException {
 
-		//commonPage.removeCoupon();
+		commonPage.removeCoupon();
 
 	}
 
@@ -343,6 +343,7 @@ public class Verify_5OFF_Coupon extends BaseClass {
 
 	@Then("Navigates Back to the Pricing Page")
 	public void Navigates_Back_to_the_Pricing_Page() throws InterruptedException {
+		driver.navigate().refresh();
 		commonPage.navigatesBack();
 	}
 

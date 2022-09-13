@@ -159,10 +159,12 @@ public class CommonClass extends BaseClass {
 	public String verifyPrice() {
 
 		try {
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 			Price = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(OR.getProperty("verify_Price"))));
 			js.executeScript("arguments[0].scrollIntoView();", Price);
 			price = Price.getText();
+			System.out.println("Price = " +price);
+			
 		} catch (Exception e) {
 
 			e.printStackTrace();
