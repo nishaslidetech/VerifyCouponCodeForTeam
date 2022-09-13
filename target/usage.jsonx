@@ -1,0 +1,128 @@
+[
+  {
+    "source": "User is on Home Page and click on Login button",
+    "steps": [
+      {
+        "name": "User is on Home Page and click on Login button",
+        "aggregatedDurations": {
+          "median": 27.8046431,
+          "average": 27.8046431
+        },
+        "durations": [
+          {
+            "duration": 27.8046431,
+            "location": "file:///D:/Selenium%20Live%20Projects/VerifyTeamCoupon/./src/test/java/features/Verify_5Off_Coupon.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Enter username {string} and passwordi {string}",
+    "steps": [
+      {
+        "name": "Enter username \"nishadhiman0027@gmail.com\" and passwordi \"Qwerty@1\"",
+        "aggregatedDurations": {
+          "median": 16.9709151,
+          "average": 16.9709151
+        },
+        "durations": [
+          {
+            "duration": 16.9709151,
+            "location": "file:///D:/Selenium%20Live%20Projects/VerifyTeamCoupon/./src/test/java/features/Verify_5Off_Coupon.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "click on join now monthly option",
+    "steps": [
+      {
+        "name": "click on join now monthly option",
+        "aggregatedDurations": {
+          "median": 9.5377859,
+          "average": 9.5377859
+        },
+        "durations": [
+          {
+            "duration": 9.5377859,
+            "location": "file:///D:/Selenium%20Live%20Projects/VerifyTeamCoupon/./src/test/java/features/Verify_5Off_Coupon.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "verify that user should be on checkout page",
+    "steps": [
+      {
+        "name": "verify that user should be on checkout page",
+        "aggregatedDurations": {
+          "median": 0.0127539,
+          "average": 0.0127539
+        },
+        "durations": [
+          {
+            "duration": 0.0127539,
+            "location": "file:///D:/Selenium%20Live%20Projects/VerifyTeamCoupon/./src/test/java/features/Verify_5Off_Coupon.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "select the radio button for coupon code and stripe option",
+    "steps": [
+      {
+        "name": "select the radio button for coupon code and stripe option",
+        "aggregatedDurations": {
+          "median": 23.7594212,
+          "average": 23.7594212
+        },
+        "durations": [
+          {
+            "duration": 23.7594212,
+            "location": "file:///D:/Selenium%20Live%20Projects/VerifyTeamCoupon/./src/test/java/features/Verify_5Off_Coupon.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "verify the price for stripe option",
+    "steps": [
+      {
+        "name": "verify the price for stripe option",
+        "aggregatedDurations": {
+          "median": 3.0782358,
+          "average": 3.0782358
+        },
+        "durations": [
+          {
+            "duration": 3.0782358,
+            "location": "file:///D:/Selenium%20Live%20Projects/VerifyTeamCoupon/./src/test/java/features/Verify_5Off_Coupon.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "remove the coupon code",
+    "steps": [
+      {
+        "name": "remove the coupon code",
+        "aggregatedDurations": {
+          "median": 10.1771762,
+          "average": 10.1771762
+        },
+        "durations": [
+          {
+            "duration": 10.1771762,
+            "location": "file:///D:/Selenium%20Live%20Projects/VerifyTeamCoupon/./src/test/java/features/Verify_5Off_Coupon.feature:14"
+          }
+        ]
+      }
+    ]
+  }
+]

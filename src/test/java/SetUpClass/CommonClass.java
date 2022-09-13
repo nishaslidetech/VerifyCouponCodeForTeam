@@ -161,7 +161,8 @@ public class CommonClass extends BaseClass {
 		try {
 			Thread.sleep(3000);
 			Price = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(OR.getProperty("verify_Price"))));
-			js.executeScript("arguments[0].scrollIntoView();", Price);
+			js.executeScript("window.scrollBy(0,20)", "");
+			//js.executeScript("arguments[0].scrollIntoView();", Price);
 			price = Price.getText();
 			System.out.println("Price = " +price);
 			

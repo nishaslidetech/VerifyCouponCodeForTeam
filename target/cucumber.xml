@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="165.15">
+    <testcase classname="verify the 5OFF coupon" name="verify the 5OFF coupon for free accounts for individual" time="119.809">
+        <failure message="chrome not reachable&#10;  (Session info: chrome=105.0.5195.102)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SLIDEQA2', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\SLIDEQ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 27577134a4b85ddf792033f2a2c56191&#10;*** Element info: {Using=xpath, value=//input[@id='paypal_express']}" type="org.openqa.selenium.WebDriverException"><![CDATA[Given User is on Home Page and click on Login button........................passed
+Then Enter username "nishadhiman0027@gmail.com" and passwordi "Qwerty@1"....passed
+Then click on join now monthly option.......................................passed
+Then verify that user should be on checkout page............................passed
+Then select the radio button for coupon code and stripe option..............passed
+Then verify the price for stripe option.....................................passed
+Then remove the coupon code.................................................passed
+Then again select the radio button for coupon code and paypal option........failed
+Then verify the price for paypal............................................skipped
+Then remove the coupon code and check the message...........................skipped
+Then navigates back to the pricing page.....................................skipped
+Then click on join now semi Annual option...................................skipped
+Then Verify that user should be on checkout page............................skipped
+Then Select the radio button for coupon code and stripe option..............skipped
+Then verify the price for stripe options....................................skipped
+Then remove the applied coupon code.........................................skipped
+Then Again select the radio button for coupon code and paypal option........skipped
+Then Verify the price for paypal............................................skipped
+Then Remove the coupon code and check the message...........................skipped
+Then navigates back to the Pricing Page.....................................skipped
+Then click on join now Annual option........................................skipped
+Then verify that user should be on Checkout page............................skipped
+Then select the radio button for coupon code and Stripe option..............skipped
+Then Verify the price for stripe option.....................................skipped
+Then Remove the coupon code.................................................skipped
+Then again Select the radio button for coupon code and paypal option........skipped
+Then verify The price for paypal............................................skipped
+Then remove The coupon code and check the message...........................skipped
+Then navigates back to the pricing pages....................................skipped
+Then click on join now Annual+Design option.................................skipped
+Then verify that user should be on checkout Page............................skipped
+Then select the Radio button for coupon code and stripe option..............skipped
+Then verify the Price for stripe option.....................................skipped
+Then Remove the Coupon code.................................................skipped
+Then again select The radio button for coupon code and paypal option........skipped
+Then verify the Price for paypal............................................skipped
+Then remove the Coupon code and check the message...........................skipped
+Then Navigates Back to the Pricing Page.....................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SLIDEQA2', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\SLIDEQ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27577134a4b85ddf792033f2a2c56191
+*** Element info: {Using=xpath, value=//input[@id='paypal_express']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at SetUpClass.CommonClass.payPalOPtion(CommonClass.java:114)
+	at stepDefinations.Verify_5OFF_Coupon.again_select_the_radio_button_for_coupon_code_and_paypal_option(Verify_5OFF_Coupon.java:119)
+	at ✽.again select the radio button for coupon code and paypal option(file:///D:/Selenium%20Live%20Projects/VerifyTeamCoupon/./src/test/java/features/Verify_5Off_Coupon.feature:15)
+]]></failure>
+    </testcase>
+    <testcase classname="verify the 5OFF coupon" name="verify the 5OFF coupon for free accounts for BusinessTeam" time="23.9">
+        <failure message="chrome not reachable&#10;  (Session info: chrome=105.0.5195.102)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SLIDEQA2', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\SLIDEQ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 27577134a4b85ddf792033f2a2c56191&#10;*** Element info: {Using=xpath, value=//button[normalize-space()='Business Teams']}" type="org.openqa.selenium.WebDriverException"><![CDATA[When select Business Team option............................................failed
+Then click on join now Annual four user licence option......................skipped
+Then verify that user should be on Checkout Page............................skipped
+Then Select the Radio button for coupon code and stripe option..............skipped
+Then verify the price for stripe Option.....................................skipped
+Then Remove the Coupon Code.................................................skipped
+Then again select the Radio button for coupon code and paypal option........skipped
+Then verify the price For paypal............................................skipped
+Then remove the coupon Code and check the message...........................skipped
+Then Navigates back to the pricing page.....................................skipped
+Then click on join now Annual twenty user licence option....................skipped
+Then Verify that user should be on Checkout page............................skipped
+Then select the radio button for Coupon Code and stripe option..............skipped
+Then verify the price For Stripe option.....................................skipped
+Then remove the Applied coupon code.........................................skipped
+Then again select the radio button For coupon code and paypal option........skipped
+Then verify the price for Paypal............................................skipped
+Then remove the coupon code nd Check the message............................skipped
+Then navigates Back to the pricing page.....................................skipped
+Then click on join now unlimted user licence option.........................skipped
+Then Verify that user should be on Checkout Page............................skipped
+Then Select the Radio button for Coupon code and stripe option..............skipped
+Then Verify the price for Stripe option.....................................skipped
+Then remove the Applied coupon..............................................skipped
+Then again select the radio button for Coupon code and paypal option........skipped
+Then Verify the price for Paypal............................................skipped
+Then remove the coupon code and check the Message...........................skipped
+Then navigates back To the pricing page.....................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SLIDEQA2', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\SLIDEQ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27577134a4b85ddf792033f2a2c56191
+*** Element info: {Using=xpath, value=//button[normalize-space()='Business Teams']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at stepDefinations.Verify_5OFF_Coupon.select_business_team_option(Verify_5OFF_Coupon.java:355)
+	at ✽.select Business Team option(file:///D:/Selenium%20Live%20Projects/VerifyTeamCoupon/./src/test/java/features/Verify_5Off_Coupon.feature:50)
+]]></failure>
+    </testcase>
+    <testcase classname="verify the 5OFF coupon" name="verify the 5OFF coupon for free accounts for education" time="20.894">
+        <failure message="chrome not reachable&#10;  (Session info: chrome=105.0.5195.102)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SLIDEQA2', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\SLIDEQ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 27577134a4b85ddf792033f2a2c56191&#10;*** Element info: {Using=xpath, value=//button[normalize-space()='Education']}" type="org.openqa.selenium.WebDriverException"><![CDATA[When select Education option................................................failed
+Then click on join now Annual user licence option...........................skipped
+Then Verify That user should be on checkout page............................skipped
+Then Select the radio button for coupon code and Stripe OPtion..............skipped
+Then Verify the Price For Stripe Option.....................................skipped
+Then Remove the coupon......................................................skipped
+Then again select the radio button for coupon Code and paypal option........skipped
+Then Verify The price for paypal............................................skipped
+Then Remove the coupon code and check the Message...........................skipped
+Then navigates back to The pricing page.....................................skipped
+Then click on join now unlimted users licence option........................skipped
+Then Verify That User Should be on checkout page............................skipped
+Then select The Radio button For coupon code and stripe option..............skipped
+Then verify the Prices for stripe options...................................skipped
+Then remove The Applied Coupon Code.........................................skipped
+Then again select the radio button for coupon code and Paypal option........skipped
+Then Verify The Price for Paypal............................................skipped
+Then Remove the Coupon code and check the Message...........................skipped
+Then navigates back to the Pricing page.....................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SLIDEQA2', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\SLIDEQ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27577134a4b85ddf792033f2a2c56191
+*** Element info: {Using=xpath, value=//button[normalize-space()='Education']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at stepDefinations.Verify_5OFF_Coupon.select_education_option(Verify_5OFF_Coupon.java:532)
+	at ✽.select Education option(file:///D:/Selenium%20Live%20Projects/VerifyTeamCoupon/./src/test/java/features/Verify_5Off_Coupon.feature:81)
+]]></failure>
+    </testcase>
+</testsuite>

@@ -1,0 +1,1080 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-13T12:49:57.822Z",
+        "line": 7,
+        "name": "verify the 5OFF coupon for free accounts for individual",
+        "description": "",
+        "id": "verify-the-5off-coupon;verify-the-5off-coupon-for-free-accounts-for-individual",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d105.0.5195.102)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SLIDEQA2\u0027, ip: \u0027192.168.0.107\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\\Users\\SLIDEQ~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:49912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 27577134a4b85ddf792033f2a2c56191\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat stepDefinations.TakeImageStep.tearDown(TakeImageStep.java:20)\r\n",
+              "duration": 10413415500,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinations.TakeImageStep.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27804643100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on Home Page and click on Login button",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.User_is_on_Home_Page_and_click_on_Login_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16970915100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter username \"nishadhiman0027@gmail.com\" and passwordi \"Qwerty@1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nishadhiman0027@gmail.com\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Qwerty@1\"",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefinations.Verify_5OFF_Coupon.Enter_username_and_passwordi(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9537785900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on join now monthly option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.click_on_join_now_monthly_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12753900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify that user should be on checkout page",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.verify_that_user_should_be_on_checkout_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23759421200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "select the radio button for coupon code and stripe option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.select_the_radio_button_for_coupon_code_and_stripe_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3078235800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify the price for stripe option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.verify_the_price_for_stripe_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10177176200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "remove the coupon code",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.remove_the_coupon_code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d105.0.5195.102)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SLIDEQA2\u0027, ip: \u0027192.168.0.107\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\\Users\\SLIDEQ~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:49912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 27577134a4b85ddf792033f2a2c56191\n*** Element info: {Using\u003dxpath, value\u003d//input[@id\u003d\u0027paypal_express\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat SetUpClass.CommonClass.payPalOPtion(CommonClass.java:114)\r\n\tat stepDefinations.Verify_5OFF_Coupon.again_select_the_radio_button_for_coupon_code_and_paypal_option(Verify_5OFF_Coupon.java:119)\r\n\tat ✽.again select the radio button for coupon code and paypal option(file:///D:/Selenium%20Live%20Projects/VerifyTeamCoupon/./src/test/java/features/Verify_5Off_Coupon.feature:15)\r\n",
+              "duration": 17902189300,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "again select the radio button for coupon code and paypal option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.again_select_the_radio_button_for_coupon_code_and_paypal_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000600,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "verify the price for paypal",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.verify_the_price_for_paypal()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "remove the coupon code and check the message",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.remove_the_coupon_code_and_check_the_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "navigates back to the pricing page",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.navigates_back_to_the_pricing_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "click on join now semi Annual option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.click_on_join_now_semi_annual_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Verify that user should be on checkout page",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_that_user_should_be_on_checkout_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Select the radio button for coupon code and stripe option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Select_the_radio_button_for_coupon_code_and_stripe_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "verify the price for stripe options",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.verifsy_the_price_for_stripe_options()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999900,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "remove the applied coupon code",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.remove_the_applied_coupon_code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "Again select the radio button for coupon code and paypal option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Again_select_the_radio_button_for_coupon_code_and_paypal_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Verify the price for paypal",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_the_price_for_paypal()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Remove the coupon code and check the message",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Remove_the_coupon_code_and_check_the_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "navigates back to the Pricing Page",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.navigates_back_to_the_Pricing_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "click on join now Annual option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.click_on_join_now_annual_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "verify that user should be on Checkout page",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.verify_that_user_should_be_on_Checkout_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "select the radio button for coupon code and Stripe option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.select_the_radio_button_for_coupon_code_and_Stripe_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "Verify the price for stripe option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_the_price_for_stripe_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2999500,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "Remove the coupon code",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Remove_the_coupon_code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "again Select the radio button for coupon code and paypal option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.again_Select_the_radio_button_for_coupon_code_and_paypal_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "verify The price for paypal",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.verify_The_price_for_paypal()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "remove The coupon code and check the message",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.remove_The_coupon_code_and_check_the_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "navigates back to the pricing pages",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.navigates_back_to_the_pricing_pages()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "click on join now Annual+Design option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.click_on_join_now_annual_design_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "verify that user should be on checkout Page",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.verify_that_user_should_be_on_checkout_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "select the Radio button for coupon code and stripe option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.select_the_Radio_button_for_coupon_code_and_stripe_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "verify the Price for stripe option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.verify_the_Price_for_stripe_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "Remove the Coupon code",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Remove_the_Coupon_code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "again select The radio button for coupon code and paypal option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.again_select_The_radio_button_for_coupon_code_and_paypal_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "verify the Price for paypal",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.verify_the_Price_for_paypal()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "remove the Coupon code and check the message",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.remove_the_Coupon_code_and_check_the_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "Navigates Back to the Pricing Page",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Navigates_Back_to_the_Pricing_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@verify_5OFF_Coupon"
+          },
+          {
+            "name": "@individual"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-13T12:51:57.671Z",
+        "line": 48,
+        "name": "verify the 5OFF coupon for free accounts for BusinessTeam",
+        "description": "",
+        "id": "verify-the-5off-coupon;verify-the-5off-coupon-for-free-accounts-for-businessteam",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d105.0.5195.102)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SLIDEQA2\u0027, ip: \u0027192.168.0.107\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\\Users\\SLIDEQ~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:49912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 27577134a4b85ddf792033f2a2c56191\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat stepDefinations.TakeImageStep.tearDown(TakeImageStep.java:20)\r\n",
+              "duration": 10429909700,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinations.TakeImageStep.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d105.0.5195.102)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SLIDEQA2\u0027, ip: \u0027192.168.0.107\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\\Users\\SLIDEQ~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:49912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 27577134a4b85ddf792033f2a2c56191\n*** Element info: {Using\u003dxpath, value\u003d//button[normalize-space()\u003d\u0027Business Teams\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat stepDefinations.Verify_5OFF_Coupon.select_business_team_option(Verify_5OFF_Coupon.java:355)\r\n\tat ✽.select Business Team option(file:///D:/Selenium%20Live%20Projects/VerifyTeamCoupon/./src/test/java/features/Verify_5Off_Coupon.feature:50)\r\n",
+              "duration": 13460979300,
+              "status": "failed"
+            },
+            "line": 50,
+            "name": "select Business Team option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.select_business_team_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "click on join now Annual four user licence option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.click_on_join_now_Annual_four_user_licence_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "verify that user should be on Checkout Page",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.verify_that_user_should_be_on_Checkout_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "Select the Radio button for coupon code and stripe option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Select_the_Radio_button_for_coupon_code_and_stripe_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "verify the price for stripe Option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.verify_the_price_for_stripe_Option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "Remove the Coupon Code",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Remove_the_Coupon_Code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "again select the Radio button for coupon code and paypal option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.again_select_the_Radio_button_for_coupon_code_and_paypal_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "verify the price For paypal",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.verify_the_price_For_paypal()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "remove the coupon Code and check the message",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.remove_the_coupon_Code_and_check_the_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "Navigates back to the pricing page",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Navigates_back_to_the_pricing_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "click on join now Annual twenty user licence option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.click_on_join_now_annual_twenty_user_licence_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "Verify that user should be on Checkout page",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_that_user_should_be_on_Checkout_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "select the radio button for Coupon Code and stripe option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.select_the_radio_button_for_Coupon_Code_and_stripe_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "verify the price For Stripe option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.verify_the_price_For_Stripe_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 64,
+            "name": "remove the Applied coupon code",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.remove_the_Applied_coupon_code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 65,
+            "name": "again select the radio button For coupon code and paypal option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.again_select_the_radio_button_For_coupon_code_and_paypal_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 66,
+            "name": "verify the price for Paypal",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.verify_the_price_for_Paypal()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 67,
+            "name": "remove the coupon code nd Check the message",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.remove_the_coupon_code_nd_check_the_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 68,
+            "name": "navigates Back to the pricing page",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.navigates_Back_to_the_pricing_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 69,
+            "name": "click on join now unlimted user licence option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.click_on_join_now_unlimted_user_licence_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 70,
+            "name": "Verify that user should be on Checkout Page",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_that_user_should_be_on_Checkout_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 71,
+            "name": "Select the Radio button for Coupon code and stripe option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Select_the_Radio_button_for_Coupon_code_and_stripe_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 72,
+            "name": "Verify the price for Stripe option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_the_price_for_Stripe_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997800,
+              "status": "skipped"
+            },
+            "line": 73,
+            "name": "remove the Applied coupon",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.remove_the_applied_coupon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 74,
+            "name": "again select the radio button for Coupon code and paypal option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.again_select_the_radio_button_for_Coupon_code_and_paypal_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 75,
+            "name": "Verify the price for Paypal",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_the_price_for_Paypal()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 76,
+            "name": "remove the coupon code and check the Message",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.remove_the_coupon_code_and_check_the_Message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 77,
+            "name": "navigates back To the pricing page",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.navigates_back_To_the_pricing_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@verify_5OFF_Coupon"
+          },
+          {
+            "name": "@BusinessTeam"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-13T12:52:21.596Z",
+        "line": 80,
+        "name": "verify the 5OFF coupon for free accounts for education",
+        "description": "",
+        "id": "verify-the-5off-coupon;verify-the-5off-coupon-for-free-accounts-for-education",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d105.0.5195.102)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SLIDEQA2\u0027, ip: \u0027192.168.0.107\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\\Users\\SLIDEQ~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:49912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 27577134a4b85ddf792033f2a2c56191\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat stepDefinations.TakeImageStep.tearDown(TakeImageStep.java:20)\r\n",
+              "duration": 10439999500,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinations.TakeImageStep.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d105.0.5195.102)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SLIDEQA2\u0027, ip: \u0027192.168.0.107\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\\Users\\SLIDEQ~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:49912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 27577134a4b85ddf792033f2a2c56191\n*** Element info: {Using\u003dxpath, value\u003d//button[normalize-space()\u003d\u0027Education\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat stepDefinations.Verify_5OFF_Coupon.select_education_option(Verify_5OFF_Coupon.java:532)\r\n\tat ✽.select Education option(file:///D:/Selenium%20Live%20Projects/VerifyTeamCoupon/./src/test/java/features/Verify_5Off_Coupon.feature:81)\r\n",
+              "duration": 10448202000,
+              "status": "failed"
+            },
+            "line": 81,
+            "name": "select Education option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.select_education_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 82,
+            "name": "click on join now Annual user licence option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.click_on_join_now_annual_user_licence_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 83,
+            "name": "Verify That user should be on checkout page",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_That_user_should_be_on_checkout_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 84,
+            "name": "Select the radio button for coupon code and Stripe OPtion",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.select_the_radio_button_for_coupon_code_and_stripe_OPtion()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 85,
+            "name": "Verify the Price For Stripe Option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_the_Price_For_Stripe_Option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 86,
+            "name": "Remove the coupon",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.remove_the_coupon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 87,
+            "name": "again select the radio button for coupon Code and paypal option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.again_select_the_radio_button_for_coupon_Code_and_paypal_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 88,
+            "name": "Verify The price for paypal",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_The_price_for_paypal()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 89,
+            "name": "Remove the coupon code and check the Message",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Remove_the_coupon_code_and_check_the_Message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 90,
+            "name": "navigates back to The pricing page",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.navigates_back_to_The_pricing_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 91,
+            "name": "click on join now unlimted users licence option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.click_on_join_now_unlimted_users_licence_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 92,
+            "name": "Verify That User Should be on checkout page",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_That_User_Should_be_on_checkout_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 93,
+            "name": "select The Radio button For coupon code and stripe option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.select_The_Radio_button_for_coupon_code_and_stripe_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 94,
+            "name": "verify the Prices for stripe options",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.verify_the_prices_for_stripe_options()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 95,
+            "name": "remove The Applied Coupon Code",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.remove_the_Applied_Coupon_Code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 96,
+            "name": "again select the radio button for coupon code and Paypal option",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.again_select_the_radio_button_for_coupon_code_and_Paypal_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 97,
+            "name": "Verify The Price for Paypal",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_the_Price_for_Paypal()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 98,
+            "name": "Remove the Coupon code and check the Message",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.Remove_the_Coupon_code_and_check_the_Message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 99,
+            "name": "navigates back to the Pricing page",
+            "match": {
+              "location": "stepDefinations.Verify_5OFF_Coupon.navigates_back_to_the_Pricing_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@verify_5OFF_Coupon"
+          },
+          {
+            "name": "@Education"
+          }
+        ]
+      }
+    ],
+    "name": "verify the 5OFF coupon",
+    "description": "",
+    "id": "verify-the-5off-coupon",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Verify_5Off_Coupon.feature",
+    "tags": [
+      {
+        "name": "@verify_5OFF_Coupon",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

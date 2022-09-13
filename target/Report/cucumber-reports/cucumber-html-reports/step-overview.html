@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+        <li role="presentation" ><a href="failures-overview.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>Project Name</td>
+                          <td>1</td>
+                        <td>13 Sep 2022, 18:22</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Steps Statistics</h2>
+              <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">stepDefinations.TakeImageStep.tearDown(io.cucumber.java.Scenario)</td>
+                <td>3</td>
+                <td class="duration" data-value="31283324700">31s 283ms</td>
+                <td class="duration" data-value="10427774900">10s 427ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Again_select_the_radio_button_for_coupon_code_and_paypal_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="1000100">001ms</td>
+                <td class="duration" data-value="1000100">001ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Enter_username_and_passwordi(java.lang.String,java.lang.String)</td>
+                <td>1</td>
+                <td class="duration" data-value="16970915100">16s 970ms</td>
+                <td class="duration" data-value="16970915100">16s 970ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Navigates_Back_to_the_Pricing_Page()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Navigates_back_to_the_pricing_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Remove_the_Coupon_Code()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Remove_the_Coupon_code()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Remove_the_Coupon_code_and_check_the_Message()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Remove_the_coupon_code()</td>
+                <td>1</td>
+                <td class="duration" data-value="2999500">002ms</td>
+                <td class="duration" data-value="2999500">002ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Remove_the_coupon_code_and_check_the_Message()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Remove_the_coupon_code_and_check_the_message()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Select_the_Radio_button_for_Coupon_code_and_stripe_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Select_the_Radio_button_for_coupon_code_and_stripe_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Select_the_radio_button_for_coupon_code_and_stripe_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.User_is_on_Home_Page_and_click_on_Login_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="27804643100">27s 804ms</td>
+                <td class="duration" data-value="27804643100">27s 804ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Verify_That_User_Should_be_on_checkout_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Verify_That_user_should_be_on_checkout_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Verify_The_price_for_paypal()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Verify_that_user_should_be_on_Checkout_Page()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Verify_that_user_should_be_on_Checkout_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Verify_that_user_should_be_on_checkout_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Verify_the_Price_For_Stripe_Option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Verify_the_Price_for_Paypal()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Verify_the_price_for_Paypal()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Verify_the_price_for_Stripe_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Verify_the_price_for_paypal()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.Verify_the_price_for_stripe_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.again_Select_the_radio_button_for_coupon_code_and_paypal_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.again_select_The_radio_button_for_coupon_code_and_paypal_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.again_select_the_Radio_button_for_coupon_code_and_paypal_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.again_select_the_radio_button_For_coupon_code_and_paypal_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.again_select_the_radio_button_for_Coupon_code_and_paypal_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.again_select_the_radio_button_for_coupon_Code_and_paypal_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.again_select_the_radio_button_for_coupon_code_and_Paypal_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.again_select_the_radio_button_for_coupon_code_and_paypal_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="17902189300">17s 902ms</td>
+                <td class="duration" data-value="17902189300">17s 902ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.click_on_join_now_Annual_four_user_licence_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.click_on_join_now_annual_design_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="999700">000ms</td>
+                <td class="duration" data-value="999700">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.click_on_join_now_annual_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.click_on_join_now_annual_twenty_user_licence_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.click_on_join_now_annual_user_licence_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.click_on_join_now_monthly_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="9537785900">9s 537ms</td>
+                <td class="duration" data-value="9537785900">9s 537ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.click_on_join_now_semi_annual_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.click_on_join_now_unlimted_user_licence_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.click_on_join_now_unlimted_users_licence_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.navigates_Back_to_the_pricing_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.navigates_back_To_the_pricing_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.navigates_back_to_The_pricing_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.navigates_back_to_the_Pricing_Page()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.navigates_back_to_the_Pricing_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.navigates_back_to_the_pricing_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.navigates_back_to_the_pricing_pages()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.remove_The_coupon_code_and_check_the_message()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.remove_the_Applied_Coupon_Code()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.remove_the_Applied_coupon_code()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.remove_the_Coupon_code_and_check_the_message()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.remove_the_applied_coupon()</td>
+                <td>1</td>
+                <td class="duration" data-value="997800">000ms</td>
+                <td class="duration" data-value="997800">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.remove_the_applied_coupon_code()</td>
+                <td>1</td>
+                <td class="duration" data-value="999900">000ms</td>
+                <td class="duration" data-value="999900">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.remove_the_coupon()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.remove_the_coupon_Code_and_check_the_message()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.remove_the_coupon_code()</td>
+                <td>1</td>
+                <td class="duration" data-value="10177176200">10s 177ms</td>
+                <td class="duration" data-value="10177176200">10s 177ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.remove_the_coupon_code_and_check_the_Message()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.remove_the_coupon_code_and_check_the_message()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.remove_the_coupon_code_nd_check_the_message()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.select_The_Radio_button_for_coupon_code_and_stripe_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.select_business_team_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="13460979300">13s 460ms</td>
+                <td class="duration" data-value="13460979300">13s 460ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.select_education_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="10448202000">10s 448ms</td>
+                <td class="duration" data-value="10448202000">10s 448ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.select_the_Radio_button_for_coupon_code_and_stripe_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.select_the_radio_button_for_Coupon_Code_and_stripe_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.select_the_radio_button_for_coupon_code_and_Stripe_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.select_the_radio_button_for_coupon_code_and_stripe_OPtion()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.select_the_radio_button_for_coupon_code_and_stripe_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="23759421200">23s 759ms</td>
+                <td class="duration" data-value="23759421200">23s 759ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.verifsy_the_price_for_stripe_options()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.verify_The_price_for_paypal()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.verify_that_user_should_be_on_Checkout_Page()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.verify_that_user_should_be_on_Checkout_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.verify_that_user_should_be_on_checkout_Page()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.verify_that_user_should_be_on_checkout_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="12753900">012ms</td>
+                <td class="duration" data-value="12753900">012ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.verify_the_Price_for_paypal()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.verify_the_Price_for_stripe_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="1000000">001ms</td>
+                <td class="duration" data-value="1000000">001ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.verify_the_price_For_Stripe_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.verify_the_price_For_paypal()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.verify_the_price_for_Paypal()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.verify_the_price_for_paypal()</td>
+                <td>1</td>
+                <td class="duration" data-value="1000600">001ms</td>
+                <td class="duration" data-value="1000600">001ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.verify_the_price_for_stripe_Option()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.verify_the_price_for_stripe_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="3078235800">3s 078ms</td>
+                <td class="duration" data-value="3078235800">3s 078ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinations.Verify_5OFF_Coupon.verify_the_prices_for_stripe_options()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot class="total">
+            <tr>
+              <td>86</td>
+              <td>88</td>
+              <td class="duration">2m 44s 444ms</td>
+              <td class="duration">1s 868ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
+          </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
