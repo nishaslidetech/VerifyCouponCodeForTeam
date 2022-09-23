@@ -73,6 +73,7 @@ public class Verify_5OFF_Coupon extends BaseClass {
 
 		try {
 			joinNow = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(OR.getProperty("joinNow_Monthly"))));
+			System.out.println("Monthly clicked");
 			js.executeScript("arguments[0].scrollIntoView();", joinNow);
 			joinNow.click();
 			Thread.sleep(7000);
@@ -146,6 +147,7 @@ public class Verify_5OFF_Coupon extends BaseClass {
 
 		joinNow = wait
 				.until(ExpectedConditions.elementToBeClickable(By.xpath(OR.getProperty("indiviaual_semi_Annual"))));
+		System.out.println("indiviaual_semi_Annual clicked");
 		js.executeScript("arguments[0].scrollIntoView();", joinNow);
 		joinNow.click();
 		Thread.sleep(4000);
@@ -216,6 +218,7 @@ public class Verify_5OFF_Coupon extends BaseClass {
 
 		WebElement joinNow = wait
 				.until(ExpectedConditions.elementToBeClickable(By.xpath(OR.getProperty("induvidulal_annual"))));
+		System.out.println("induvidulal_annual clicked");
 		joinNow.click();
 		Thread.sleep(4000);
 
@@ -284,6 +287,7 @@ public class Verify_5OFF_Coupon extends BaseClass {
 
 		joinNow = wait
 				.until(ExpectedConditions.elementToBeClickable(By.xpath(OR.getProperty("individual_Annual+Design"))));
+		System.out.println("individual_Annual+Design clicked");
 		joinNow.click();
 		Thread.sleep(4000);
 
@@ -346,6 +350,7 @@ public class Verify_5OFF_Coupon extends BaseClass {
 	public void Navigates_Back_to_the_Pricing_Page() throws InterruptedException {
 		driver.navigate().refresh();
 		commonPage.navigatesBack();
+		
 	}
 
 	@Then("select Business Team option")
