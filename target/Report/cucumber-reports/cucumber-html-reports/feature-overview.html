@@ -52,8 +52,8 @@ $(document).ready(function() {
         datasets: [{
             data: [
                 17,
-                3,
-                65,
+                1,
+                0,
                 0,
                 0
             ],
@@ -94,7 +94,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 85) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 18) / 100;
                         return tooltipLabel + ': ' + tooltipData + ' (' + tooltipPercentage + '%)';
                     }
                 }
@@ -107,8 +107,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                0,
-                3
+                1,
+                1
             ],
             backgroundColor: [
                 "#00B000",
@@ -144,7 +144,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 3) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 2) / 100;
                         return tooltipLabel + ': ' + tooltipData + ' (' + tooltipPercentage + '%)';
                     }
                 }
@@ -233,7 +233,7 @@ $(document).ready(function() {
           <tr class="info">
             <td>Project Name</td>
                           <td>1</td>
-                        <td>14 Sep 2022, 10:19</td>
+                        <td>26 Sep 2022, 15:37</td>
           </tr>
         </tbody>
       </table>
@@ -323,18 +323,18 @@ $(document).ready(function() {
 
   <tbody>
           <tr>
-        <td class="tagname"><a href="file-src-test-java-features-Verify_5Off_Coupon-feature.html">verify the 5OFF coupon</a></td>
+        <td class="tagname"><a href="file-src-test-java-features-Verify_40-25_Delete_Coupon-feature.html">verify the Delete40% coupon</a></td>
         
-        <td >0</td>
-        <td  class="failed"    >3</td>
-        <td class="total">3</td>
+        <td  class="passed"    >1</td>
+        <td  class="failed"    >1</td>
+        <td class="total">2</td>
         <td      class="passed"    >17</td>
-        <td      class="failed"    >3</td>
-        <td     class="skipped"   >65</td>
+        <td      class="failed"    >1</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">85</td>
-        <td class="duration" data-value="251602256100">4m 11s 602ms</td>
+        <td >0</td>
+        <td class="total">18</td>
+        <td class="duration" data-value="219521839700">3m 39s 521ms</td>
         <td class="failed">Failed</td>
       </tr>
       </tbody>
@@ -342,31 +342,31 @@ $(document).ready(function() {
   <tfoot class="total">
     <tr>
       <td>1</td>
-            <td>0</td>
-      <td>3</td>
-      <td>3</td>
+            <td>1</td>
+      <td>1</td>
+      <td>2</td>
       <td>17</td>
-      <td>3</td>
-      <td>65</td>
+      <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>85</td>
-      <td class="duration">4m 11s 602ms</td>
+      <td>0</td>
+      <td>18</td>
+      <td class="duration">3m 39s 521ms</td>
       <td></td>
     </tr>
     <tr>
       <td></td>
-            <td>0.00%</td>
-      <td>100.00%</td>
+            <td>50.00%</td>
+      <td>50.00%</td>
       <td></td>
-      <td>20.00%</td>
-      <td>3.53%</td>
-      <td>76.47%</td>
+      <td>94.44%</td>
+      <td>5.56%</td>
       <td>0.00%</td>
       <td>0.00%</td>
+      <td>0.00%</td>
       <td></td>
       <td></td>
-      <td>100.00%</td>
+      <td>50.00%</td>
     </tr>
   </tfoot>
 </table>
