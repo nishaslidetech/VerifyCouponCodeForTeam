@@ -44,7 +44,7 @@ public class CommonClass extends BaseClass {
 
 			// Apply coupon
 			Thread.sleep(3000);
-			
+
 			if (!driver.findElements(By.xpath(OR.getProperty("remove_Coupon"))).isEmpty()) {
 				removeCoupon();
 
@@ -114,7 +114,7 @@ public class CommonClass extends BaseClass {
 					.until(ExpectedConditions.elementToBeClickable(By.xpath(OR.getProperty("payPalOption"))));
 			js.executeScript("arguments[0].click();", payPalOption);
 			// payPalOption.click(); Thread.sleep(3000);
-			
+
 			if (!driver.findElements(By.xpath(OR.getProperty("remove_Coupon"))).isEmpty()) {
 				removeCoupon();
 
@@ -162,10 +162,10 @@ public class CommonClass extends BaseClass {
 			Thread.sleep(3000);
 			Price = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(OR.getProperty("verify_Price"))));
 			js.executeScript("window.scrollBy(0,20)", "");
-			//js.executeScript("arguments[0].scrollIntoView();", Price);
+			// js.executeScript("arguments[0].scrollIntoView();", Price);
 			price = Price.getText();
-			System.out.println("Price = " +price);
-			
+			System.out.println("Price = " + price);
+
 		} catch (Exception e) {
 
 			e.printStackTrace();
@@ -243,8 +243,10 @@ public class CommonClass extends BaseClass {
 			// sign up button
 			WebElement new_btn_signup = wait
 					.until(ExpectedConditions.elementToBeClickable(By.cssSelector(OR.getProperty("new_btn_signup"))));
-			new_btn_signup.click();
-			Thread.sleep(4000);
+			Thread.sleep(3000);
+			// new_btn_signup.click();
+			js.executeScript("arguments[0].click();", new_btn_signup);
+			Thread.sleep(5000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -398,7 +400,7 @@ public class CommonClass extends BaseClass {
 
 	public void applyDeleteDiscountCoupon() {
 		try {
-			
+
 			if (!driver.findElements(By.xpath(OR.getProperty("remove_Coupon"))).isEmpty()) {
 				removeCoupon();
 

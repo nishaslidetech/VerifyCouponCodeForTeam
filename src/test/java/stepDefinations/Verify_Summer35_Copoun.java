@@ -43,17 +43,18 @@ public class Verify_Summer35_Copoun extends BaseClass {
 
 		try {
 
+			Thread.sleep(3000);
+			String URL = driver.getCurrentUrl();
+			System.out.println("URL = " + URL);
 		
-			Thread.sleep(3000);
-			driver.getCurrentUrl();
-			Thread.sleep(3000);
 			WebElement free_Stuff = elementToBeClickable(By.xpath(OR.getProperty("Free_Stuff")));
+			Thread.sleep(3000);
 			Actions action = new Actions(driver);
 			action.moveToElement(free_Stuff).perform();
 			Thread.sleep(3000);
 			WebElement free_ppt = elementToBeClickable(By.xpath(OR.getProperty("Free_PPT")));
 			action.moveToElement(free_ppt).click().perform();
-
+			
 			// download 1 ppt
 
 			// select ppt under free stuff
@@ -229,7 +230,8 @@ public class Verify_Summer35_Copoun extends BaseClass {
 
 		String verify_price = commonPage.verifyPrice();
 		System.out.println("verify_price = " + verify_price);
-		//Assert.assertEquals("Summer35coupon is not applied successfully", verify_price, monthyPriceAferSummer35);
+		// Assert.assertEquals("Summer35coupon is not applied successfully",
+		// verify_price, monthyPriceAferSummer35);
 
 	}
 
