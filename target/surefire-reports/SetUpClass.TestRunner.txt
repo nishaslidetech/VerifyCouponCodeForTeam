@@ -1,7 +1,0 @@
--------------------------------------------------------------------------------
-Test set: SetUpClass.TestRunner
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 231.243 s <<< FAILURE! - in SetUpClass.TestRunner
-verify the Delete40% coupon.verify the Delete40% coupon for existing user  Time elapsed: 84.991 s  <<< FAILURE!
-java.lang.AssertionError: user is not logout from the application
-

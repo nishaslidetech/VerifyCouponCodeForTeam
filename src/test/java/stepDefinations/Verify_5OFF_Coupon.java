@@ -334,7 +334,7 @@ public class Verify_5OFF_Coupon extends BaseClass {
 	public void verify_the_Price_for_paypal() {
 
 		verify_price = commonPage.verifyPrice();
-		System.out.println("verify_price= " +verify_price); 
+		System.out.println("verify_price= " + verify_price);
 		Assert.assertTrue("5off coupon is not applied successfully", verify_price.equals(annual_Custom_Design_Price));
 
 	}
@@ -350,7 +350,7 @@ public class Verify_5OFF_Coupon extends BaseClass {
 	public void Navigates_Back_to_the_Pricing_Page() throws InterruptedException {
 		driver.navigate().refresh();
 		commonPage.navigatesBack();
-		
+
 	}
 
 	@Then("select Business Team option")
@@ -383,8 +383,7 @@ public class Verify_5OFF_Coupon extends BaseClass {
 	public void verify_the_price_for_stripe_Option() {
 		verify_price = commonPage.verifyPrice();
 
-		Assert.assertTrue("5off coupon is not applied successfully",
-				verify_price.equals(annual_4_user_Licence_Price));
+		Assert.assertTrue("5off coupon is not applied successfully", verify_price.equals(annual_4_user_Licence_Price));
 	}
 
 	@Then("Remove the Coupon Code")
@@ -400,8 +399,7 @@ public class Verify_5OFF_Coupon extends BaseClass {
 	@Then("verify the price For paypal")
 	public void verify_the_price_For_paypal() {
 		verify_price = commonPage.verifyPrice();
-		Assert.assertTrue("5off coupon is not applied successfully",
-				verify_price.equals(annual_4_user_Licence_Price));
+		Assert.assertTrue("5off coupon is not applied successfully", verify_price.equals(annual_4_user_Licence_Price));
 	}
 
 	@Then("remove the coupon Code and check the message")
@@ -419,9 +417,9 @@ public class Verify_5OFF_Coupon extends BaseClass {
 
 	@Then("click on join now Annual twenty user licence option")
 	public void click_on_join_now_annual_twenty_user_licence_option() throws InterruptedException {
-		joinNow = wait
+		WebElement joinNow1 = wait
 				.until(ExpectedConditions.elementToBeClickable(By.xpath(OR.getProperty("annual_20_User_Lience"))));
-		joinNow.click();
+		BaseClass.js.executeScript("arguments[0].click();", joinNow1);
 		Thread.sleep(4000);
 	}
 
@@ -440,8 +438,7 @@ public class Verify_5OFF_Coupon extends BaseClass {
 	public void verify_the_price_For_Stripe_option() {
 		verify_price = commonPage.verifyPrice();
 
-		Assert.assertTrue("5off coupon is not applied successfully",
-				verify_price.equals(annual_20_user_Licence_Price));
+		Assert.assertTrue("5off coupon is not applied successfully", verify_price.equals(annual_20_user_Licence_Price));
 	}
 
 	@Then("remove the Applied coupon code")
@@ -458,8 +455,7 @@ public class Verify_5OFF_Coupon extends BaseClass {
 	public void verify_the_price_for_Paypal() {
 		verify_price = commonPage.verifyPrice();
 
-		Assert.assertTrue("5off coupon is not applied successfully",
-				verify_price.equals(annual_20_user_Licence_Price));
+		Assert.assertTrue("5off coupon is not applied successfully", verify_price.equals(annual_20_user_Licence_Price));
 	}
 
 	@Then("remove the coupon code nd Check the message")
@@ -477,9 +473,9 @@ public class Verify_5OFF_Coupon extends BaseClass {
 
 	@Then("click on join now unlimted user licence option")
 	public void click_on_join_now_unlimted_user_licence_option() throws InterruptedException {
-		joinNow = wait.until(
+		WebElement joinNow2 = wait.until(
 				ExpectedConditions.elementToBeClickable(By.xpath(OR.getProperty("annual_unlimted_User_Lience"))));
-		joinNow.click();
+		BaseClass.js.executeScript("arguments[0].click();", joinNow2);
 		Thread.sleep(4000);
 	}
 
@@ -532,7 +528,7 @@ public class Verify_5OFF_Coupon extends BaseClass {
 
 	@Then("select Education option")
 	public void select_education_option() throws Throwable {
-		
+
 		WebElement education = wait
 				.until(ExpectedConditions.elementToBeClickable(By.xpath(OR.getProperty("education"))));
 		education.click();

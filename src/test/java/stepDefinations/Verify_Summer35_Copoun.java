@@ -43,8 +43,9 @@ public class Verify_Summer35_Copoun extends BaseClass {
 
 		try {
 
-			Thread.sleep(4000);
-			driver.navigate().refresh();
+		
+			Thread.sleep(3000);
+			driver.getCurrentUrl();
 			Thread.sleep(3000);
 			WebElement free_Stuff = elementToBeClickable(By.xpath(OR.getProperty("Free_Stuff")));
 			Actions action = new Actions(driver);

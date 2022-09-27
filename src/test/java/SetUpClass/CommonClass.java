@@ -239,7 +239,7 @@ public class CommonClass extends BaseClass {
 			WebElement new_pwd1_signup = wait
 					.until(ExpectedConditions.elementToBeClickable(By.xpath(OR.getProperty("confirm_Password"))));
 			new_pwd1_signup.sendKeys("selenium@123");
-
+			Thread.sleep(3000);
 			// sign up button
 			WebElement new_btn_signup = wait
 					.until(ExpectedConditions.elementToBeClickable(By.cssSelector(OR.getProperty("new_btn_signup"))));
