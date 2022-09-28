@@ -244,8 +244,8 @@ public class CommonClass extends BaseClass {
 			WebElement new_btn_signup = wait
 					.until(ExpectedConditions.elementToBeClickable(By.cssSelector(OR.getProperty("new_btn_signup"))));
 			Thread.sleep(3000);
-			// new_btn_signup.click();
-			js.executeScript("arguments[0].click();", new_btn_signup);
+			new_btn_signup.click();
+			// js.executeScript("arguments[0].click();", new_btn_signup);
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
