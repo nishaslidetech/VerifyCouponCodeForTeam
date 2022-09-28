@@ -24,8 +24,8 @@ public class Verify_5OFF_Coupon extends BaseClass {
 	String annual_4_user_Licence_Price = "$569.99";
 	String annual_20_user_Licence_Price = "$1,519.99";
 	String annual_unlimted_user_Licence_Price = "$2,849.99";
+	String annual_3_user_education_Licence_Price = "$379.99";
 	String annual_15_user_education_Licence_Price = "$949.99";
-	String annual_unlimted_user_education_Licence_Price = "$1,899.99";
 
 	@Given("User is on Home Page and click on Login button")
 
@@ -560,7 +560,7 @@ public class Verify_5OFF_Coupon extends BaseClass {
 		verify_price = commonPage.verifyPrice();
 
 		Assert.assertTrue("5off coupon is not applied successfully",
-				verify_price.equals(annual_15_user_education_Licence_Price));
+				verify_price.equals(annual_3_user_education_Licence_Price));
 	}
 
 	@Then("Remove the coupon")
@@ -577,7 +577,7 @@ public class Verify_5OFF_Coupon extends BaseClass {
 	public void Verify_The_price_for_paypal() {
 		verify_price = commonPage.verifyPrice();
 		Assert.assertTrue("5off coupon is not applied successfully",
-				verify_price.equals(annual_15_user_education_Licence_Price));
+				verify_price.equals(annual_3_user_education_Licence_Price));
 	}
 
 	@Then("Remove the coupon code and check the Message")
@@ -618,7 +618,7 @@ public class Verify_5OFF_Coupon extends BaseClass {
 	public void verify_the_prices_for_stripe_options() {
 		verify_price = commonPage.verifyPrice();
 		Assert.assertTrue("5off coupon is not applied successfully",
-				verify_price.equals(annual_unlimted_user_education_Licence_Price));
+				verify_price.equals(annual_15_user_education_Licence_Price));
 	}
 
 	@Then("remove The Applied Coupon Code")
@@ -635,7 +635,7 @@ public class Verify_5OFF_Coupon extends BaseClass {
 	public void Verify_the_Price_for_Paypal() {
 		verify_price = commonPage.verifyPrice();
 		Assert.assertTrue("5off coupon is not applied successfully",
-				verify_price.equals(annual_unlimted_user_education_Licence_Price));
+				verify_price.equals(annual_15_user_education_Licence_Price));
 	}
 
 	@Then("Remove the Coupon code and check the Message")
