@@ -1,7 +1,0 @@
--------------------------------------------------------------------------------
-Test set: SetUpClass.TestRunner
--------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 592.734 s <<< FAILURE! - in SetUpClass.TestRunner
-verify the 5OFF coupon.verify the 5OFF coupon for free accounts for education  Time elapsed: 23.004 s  <<< FAILURE!
-java.lang.AssertionError: 5off coupon is not applied successfully
-
