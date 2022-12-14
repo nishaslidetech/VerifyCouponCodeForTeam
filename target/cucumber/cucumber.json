@@ -3,15 +3,15 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-12-12T11:28:56.084Z",
+        "start_timestamp": "2022-12-14T11:14:12.653Z",
         "line": 7,
-        "name": "verify the 5OFF coupon for free accounts for individual",
+        "name": "verify the Delete40% coupon",
         "description": "",
-        "id": "verify-the-5off-coupon;verify-the-5off-coupon-for-free-accounts-for-individual",
+        "id": "verify-the-delete40%-coupon;verify-the-delete40%-coupon",
         "after": [
           {
             "result": {
-              "duration": 3083900,
+              "duration": 3996700,
               "status": "passed"
             },
             "match": {
@@ -24,35 +24,25 @@
         "steps": [
           {
             "result": {
-              "duration": 25198912800,
+              "duration": 13385523900,
               "status": "passed"
             },
             "line": 8,
-            "name": "User is on Home Page and click on Login button",
+            "name": "User is on Home Page then click on Signup button",
             "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.User_is_on_Home_Page_and_click_on_Login_button()"
+              "location": "stepDefinations.Verify_40_Delete_Coupon.user_is_on_home_page_then_click_on_signup_button()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 16443772400,
+              "duration": 1071400,
               "status": "passed"
             },
             "line": 9,
-            "name": "Enter username \"Qatest@mailinator.com\" and passwordi \"123456\"",
+            "name": "Creates a new ueser",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Qatest@mailinator.com\"",
-                  "offset": 15
-                },
-                {
-                  "val": "\"123456\"",
-                  "offset": 53
-                }
-              ],
-              "location": "stepDefinations.Verify_5OFF_Coupon.Enter_username_and_passwordi(java.lang.String,java.lang.String)"
+              "location": "stepDefinations.Verify_40_Delete_Coupon.creates_a_new_ueser()"
             },
             "keyword": "Then "
           },
@@ -61,9 +51,9 @@
               "status": "passed"
             },
             "line": 10,
-            "name": "click on join now monthly option",
+            "name": "Click on account botton",
             "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.click_on_join_now_monthly_option()"
+              "location": "stepDefinations.Verify_40_Delete_Coupon.click_on_account_botton()"
             },
             "keyword": "Then "
           },
@@ -72,9 +62,9 @@
               "status": "passed"
             },
             "line": 11,
-            "name": "verify that user should be on checkout page",
+            "name": "Click on delete button",
             "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.verify_that_user_should_be_on_checkout_page()"
+              "location": "stepDefinations.Verify_40_Delete_Coupon.click_on_delete_button()"
             },
             "keyword": "Then "
           },
@@ -83,9 +73,9 @@
               "status": "passed"
             },
             "line": 12,
-            "name": "select the radio button for coupon code and stripe option",
+            "name": "select one of radio button and clcik on delete profile",
             "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.select_the_radio_button_for_coupon_code_and_stripe_option()"
+              "location": "stepDefinations.Verify_40_Delete_Coupon.select_one_of_radio_button_and_clcik_on_delete_profile()"
             },
             "keyword": "Then "
           },
@@ -94,55 +84,56 @@
               "status": "passed"
             },
             "line": 13,
-            "name": "verify the price for stripe option",
+            "name": "copy the discount coupon code",
             "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.verify_the_price_for_stripe_option()"
+              "location": "stepDefinations.Verify_40_Delete_Coupon.copy_the_discount_coupon_code()"
             },
             "keyword": "Then "
           },
           {
             "result": {
+              "duration": 999900,
               "status": "passed"
             },
             "line": 14,
-            "name": "remove the coupon code",
+            "name": "User will go to the pricing page",
             "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.remove_the_coupon_code()"
+              "location": "stepDefinations.Verify_40_Delete_Coupon.user_will_go_to_the_pricing_page()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1013400,
+              "duration": 1000600,
               "status": "passed"
             },
             "line": 15,
-            "name": "again select the radio button for coupon code and paypal option",
+            "name": "Click on Join Now option",
             "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.again_select_the_radio_button_for_coupon_code_and_paypal_option()"
+              "location": "stepDefinations.Verify_40_Delete_Coupon.click_on_join_now_option()"
             },
             "keyword": "Then "
           },
           {
             "result": {
+              "duration": 994300,
               "status": "passed"
             },
             "line": 16,
-            "name": "verify the price for paypal",
+            "name": "Apply the Discount coupon code",
             "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.verify_the_price_for_paypal()"
+              "location": "stepDefinations.Verify_40_Delete_Coupon.apply_the_discount_coupon_code()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 998400,
               "status": "passed"
             },
             "line": 17,
-            "name": "remove the coupon code and check the message",
+            "name": "Verify the Price",
             "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.remove_the_coupon_code_and_check_the_message()"
+              "location": "stepDefinations.Verify_40_Delete_Coupon.verify_the_price()"
             },
             "keyword": "Then "
           },
@@ -151,65 +142,72 @@
               "status": "passed"
             },
             "line": 18,
-            "name": "navigates back to the pricing page",
+            "name": "Delete the user Account",
             "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.navigates_back_to_the_pricing_page()"
+              "location": "stepDefinations.Verify_40_Delete_Coupon.delete_the_user_account()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@verify_Delete40%Coupon"
           },
+          {
+            "name": "@for_new_User"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-14T11:14:26.194Z",
+        "line": 21,
+        "name": "verify the Delete40% coupon for existing user",
+        "description": "",
+        "id": "verify-the-delete40%-coupon;verify-the-delete40%-coupon-for-existing-user",
+        "after": [
           {
             "result": {
               "status": "passed"
             },
-            "line": 19,
-            "name": "click on join now semi Annual option",
             "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.click_on_join_now_semi_annual_option()"
-            },
-            "keyword": "Then "
-          },
+              "location": "stepDefinations.TakeImageStep.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
           {
             "result": {
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "Verify that user should be on checkout page",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_that_user_should_be_on_checkout_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "Select the radio button for coupon code and stripe option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Select_the_radio_button_for_coupon_code_and_stripe_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
+              "duration": 1008900,
               "status": "passed"
             },
             "line": 22,
-            "name": "verify the price for stripe options",
+            "name": "user is on home page click on Sign in button",
             "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.verifsy_the_price_for_stripe_options()"
+              "location": "stepDefinations.Verify_40_Delete_Coupon.user_is_on_home_page_click_on_sign_in_button()"
             },
-            "keyword": "Then "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1005300,
+              "duration": 59948229600,
               "status": "passed"
             },
             "line": 23,
-            "name": "remove the applied coupon code",
+            "name": "enter Username \"nishadhiman0027@gmail.com\" and Password \"testtest\"",
             "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.remove_the_applied_coupon_code()"
+              "arguments": [
+                {
+                  "val": "\"nishadhiman0027@gmail.com\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"testtest\"",
+                  "offset": 56
+                }
+              ],
+              "location": "stepDefinations.Verify_40_Delete_Coupon.enter_username_and_password(java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
           },
@@ -218,889 +216,79 @@
               "status": "passed"
             },
             "line": 24,
-            "name": "Again select the radio button for coupon code and paypal option",
+            "name": "User should go to the Pricing page",
             "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Again_select_the_radio_button_for_coupon_code_and_paypal_option()"
+              "location": "stepDefinations.Verify_40_Delete_Coupon.user_should_go_to_the_pricing_page()"
             },
             "keyword": "Then "
           },
           {
             "result": {
+              "duration": 26204317900,
               "status": "passed"
             },
             "line": 25,
-            "name": "Verify the price for paypal",
+            "name": "click on Join Now  option",
             "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_the_price_for_paypal()"
+              "location": "stepDefinations.Verify_40_Delete_Coupon.click_on_Join_Now_option()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2000828700,
+              "duration": 19612276500,
               "status": "passed"
             },
             "line": 26,
-            "name": "Remove the coupon code and check the message",
+            "name": "Apply the discount Coupon Code",
             "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Remove_the_coupon_code_and_check_the_message()"
+              "location": "stepDefinations.Verify_40_Delete_Coupon.Apply_the_discount_Coupon_Code()"
             },
             "keyword": "Then "
           },
           {
             "result": {
+              "duration": 3101688400,
               "status": "passed"
             },
             "line": 27,
-            "name": "navigates back to the Pricing Page",
+            "name": "verify The Price",
             "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.navigates_back_to_the_Pricing_Page()"
+              "location": "stepDefinations.Verify_40_Delete_Coupon.verify_the_Price()"
             },
             "keyword": "Then "
           },
           {
             "result": {
+              "duration": 6641382600,
               "status": "passed"
             },
             "line": 28,
-            "name": "click on join now Annual option",
+            "name": "Signout from the application",
             "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.click_on_join_now_annual_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 975500,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "verify that user should be on Checkout page",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.verify_that_user_should_be_on_Checkout_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "select the radio button for coupon code and Stripe option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.select_the_radio_button_for_coupon_code_and_Stripe_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "Verify the price for stripe option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_the_price_for_stripe_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "Remove the coupon code",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Remove_the_coupon_code()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "again Select the radio button for coupon code and paypal option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.again_Select_the_radio_button_for_coupon_code_and_paypal_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "verify The price for paypal",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.verify_The_price_for_paypal()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2006762200,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "remove The coupon code and check the message",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.remove_The_coupon_code_and_check_the_message()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1000400,
-              "status": "passed"
-            },
-            "line": 36,
-            "name": "navigates back to the pricing pages",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.navigates_back_to_the_pricing_pages()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 37,
-            "name": "click on join now Annual+Design option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.click_on_join_now_annual_design_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 38,
-            "name": "verify that user should be on checkout Page",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.verify_that_user_should_be_on_checkout_Page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 39,
-            "name": "select the Radio button for coupon code and stripe option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.select_the_Radio_button_for_coupon_code_and_stripe_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 40,
-            "name": "verify the Price for stripe option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.verify_the_Price_for_stripe_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 41,
-            "name": "Remove the Coupon code",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Remove_the_Coupon_code()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 42,
-            "name": "again select The radio button for coupon code and paypal option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.again_select_The_radio_button_for_coupon_code_and_paypal_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 43,
-            "name": "verify the Price for paypal",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.verify_the_Price_for_paypal()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 44,
-            "name": "remove the Coupon code and check the message",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.remove_the_Coupon_code_and_check_the_message()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 45,
-            "name": "Navigates Back to the Pricing Page",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Navigates_Back_to_the_Pricing_Page()"
+              "location": "stepDefinations.Verify_40_Delete_Coupon.signout_from_the_application()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@verify_5OFF_Coupon"
+            "name": "@verify_Delete40%Coupon"
           },
           {
-            "name": "@individual"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-12-12T11:29:41.876Z",
-        "line": 48,
-        "name": "verify the 5OFF coupon for free accounts for BusinessTeam",
-        "description": "",
-        "id": "verify-the-5off-coupon;verify-the-5off-coupon-for-free-accounts-for-businessteam",
-        "after": [
-          {
-            "result": {
-              "duration": 970500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinations.TakeImageStep.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 7107047100,
-              "status": "passed"
-            },
-            "line": 50,
-            "name": "select Business Team option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.select_business_team_option()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 6707024400,
-              "status": "passed"
-            },
-            "line": 51,
-            "name": "click on join now Annual four user licence option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.click_on_join_now_Annual_four_user_licence_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 13416600,
-              "status": "passed"
-            },
-            "line": 52,
-            "name": "verify that user should be on Checkout Page",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.verify_that_user_should_be_on_Checkout_Page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 13427227800,
-              "status": "passed"
-            },
-            "line": 53,
-            "name": "Select the Radio button for coupon code and stripe option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Select_the_Radio_button_for_coupon_code_and_stripe_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3062008500,
-              "status": "passed"
-            },
-            "line": 54,
-            "name": "verify the price for stripe Option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.verify_the_price_for_stripe_Option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10170520500,
-              "status": "passed"
-            },
-            "line": 55,
-            "name": "Remove the Coupon Code",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Remove_the_Coupon_Code()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 19559115500,
-              "status": "passed"
-            },
-            "line": 56,
-            "name": "again select the Radio button for coupon code and paypal option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.again_select_the_Radio_button_for_coupon_code_and_paypal_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3060615000,
-              "status": "passed"
-            },
-            "line": 57,
-            "name": "verify the price For paypal",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.verify_the_price_For_paypal()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10145805100,
-              "status": "passed"
-            },
-            "line": 58,
-            "name": "remove the coupon Code and check the message",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.remove_the_coupon_Code_and_check_the_message()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4111418800,
-              "status": "passed"
-            },
-            "line": 59,
-            "name": "Navigates back to the pricing page",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Navigates_back_to_the_pricing_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6011568800,
-              "status": "passed"
-            },
-            "line": 60,
-            "name": "click on join now Annual twenty user licence option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.click_on_join_now_annual_twenty_user_licence_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 9000300,
-              "status": "passed"
-            },
-            "line": 61,
-            "name": "Verify that user should be on Checkout page",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_that_user_should_be_on_Checkout_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 13419371300,
-              "status": "passed"
-            },
-            "line": 62,
-            "name": "select the radio button for Coupon Code and stripe option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.select_the_radio_button_for_Coupon_Code_and_stripe_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3064236500,
-              "status": "passed"
-            },
-            "line": 63,
-            "name": "verify the price For Stripe option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.verify_the_price_For_Stripe_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10168085800,
-              "status": "passed"
-            },
-            "line": 64,
-            "name": "remove the Applied coupon code",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.remove_the_Applied_coupon_code()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 18444287000,
-              "status": "passed"
-            },
-            "line": 65,
-            "name": "again select the radio button For coupon code and paypal option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.again_select_the_radio_button_For_coupon_code_and_paypal_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3059994700,
-              "status": "passed"
-            },
-            "line": 66,
-            "name": "verify the price for Paypal",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.verify_the_price_for_Paypal()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10169921200,
-              "status": "passed"
-            },
-            "line": 67,
-            "name": "remove the coupon code nd Check the message",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.remove_the_coupon_code_nd_check_the_message()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4106964000,
-              "status": "passed"
-            },
-            "line": 68,
-            "name": "navigates Back to the pricing page",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.navigates_Back_to_the_pricing_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6088206800,
-              "status": "passed"
-            },
-            "line": 69,
-            "name": "click on join now unlimted user licence option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.click_on_join_now_unlimted_user_licence_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 11737500,
-              "status": "passed"
-            },
-            "line": 70,
-            "name": "Verify that user should be on Checkout Page",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_that_user_should_be_on_Checkout_Page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 13398423800,
-              "status": "passed"
-            },
-            "line": 71,
-            "name": "Select the Radio button for Coupon code and stripe option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Select_the_Radio_button_for_Coupon_code_and_stripe_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3064971600,
-              "status": "passed"
-            },
-            "line": 72,
-            "name": "Verify the price for Stripe option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_the_price_for_Stripe_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10181898300,
-              "status": "passed"
-            },
-            "line": 73,
-            "name": "remove the Applied coupon",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.remove_the_applied_coupon()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 18431364200,
-              "status": "passed"
-            },
-            "line": 74,
-            "name": "again select the radio button for Coupon code and paypal option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.again_select_the_radio_button_for_Coupon_code_and_paypal_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3075461400,
-              "status": "passed"
-            },
-            "line": 75,
-            "name": "Verify the price for Paypal",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_the_price_for_Paypal()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10165854000,
-              "status": "passed"
-            },
-            "line": 76,
-            "name": "remove the coupon code and check the Message",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.remove_the_coupon_code_and_check_the_Message()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4020909800,
-              "status": "passed"
-            },
-            "line": 77,
-            "name": "navigates back To the pricing page",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.navigates_back_To_the_pricing_page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@verify_5OFF_Coupon"
-          },
-          {
-            "name": "@BusinessTeam"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-12-12T11:33:16.163Z",
-        "line": 80,
-        "name": "verify the 5OFF coupon for free accounts for education",
-        "description": "",
-        "id": "verify-the-5off-coupon;verify-the-5off-coupon-for-free-accounts-for-education",
-        "after": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinations.TakeImageStep.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 77606700,
-              "status": "passed"
-            },
-            "line": 81,
-            "name": "select Education option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.select_education_option()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 6052599100,
-              "status": "passed"
-            },
-            "line": 82,
-            "name": "click on join now Annual user licence option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.click_on_join_now_annual_user_licence_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 11006400,
-              "status": "passed"
-            },
-            "line": 83,
-            "name": "Verify That user should be on checkout page",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_That_user_should_be_on_checkout_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 13435515500,
-              "status": "passed"
-            },
-            "line": 84,
-            "name": "Select the radio button for coupon code and Stripe OPtion",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.select_the_radio_button_for_coupon_code_and_stripe_OPtion()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3068223300,
-              "status": "passed"
-            },
-            "line": 85,
-            "name": "Verify the Price For Stripe Option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_the_Price_For_Stripe_Option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10162988000,
-              "status": "passed"
-            },
-            "line": 86,
-            "name": "Remove the coupon",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.remove_the_coupon()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 18392822800,
-              "status": "passed"
-            },
-            "line": 87,
-            "name": "again select the radio button for coupon Code and paypal option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.again_select_the_radio_button_for_coupon_Code_and_paypal_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3066232200,
-              "status": "passed"
-            },
-            "line": 88,
-            "name": "Verify The price for paypal",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_The_price_for_paypal()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10172161600,
-              "status": "passed"
-            },
-            "line": 89,
-            "name": "Remove the coupon code and check the Message",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Remove_the_coupon_code_and_check_the_Message()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4101131500,
-              "status": "passed"
-            },
-            "line": 90,
-            "name": "navigates back to The pricing page",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.navigates_back_to_The_pricing_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6403456000,
-              "status": "passed"
-            },
-            "line": 91,
-            "name": "click on join now unlimted users licence option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.click_on_join_now_unlimted_users_licence_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10061800,
-              "status": "passed"
-            },
-            "line": 92,
-            "name": "Verify That User Should be on checkout page",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_That_User_Should_be_on_checkout_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 13510218000,
-              "status": "passed"
-            },
-            "line": 93,
-            "name": "select The Radio button For coupon code and stripe option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.select_The_Radio_button_for_coupon_code_and_stripe_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3079994600,
-              "status": "passed"
-            },
-            "line": 94,
-            "name": "verify the Prices for stripe options",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.verify_the_prices_for_stripe_options()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10179983600,
-              "status": "passed"
-            },
-            "line": 95,
-            "name": "remove The Applied Coupon Code",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.remove_the_Applied_Coupon_Code()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 18420173600,
-              "status": "passed"
-            },
-            "line": 96,
-            "name": "again select the radio button for coupon code and Paypal option",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.again_select_the_radio_button_for_coupon_code_and_Paypal_option()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3062561000,
-              "status": "passed"
-            },
-            "line": 97,
-            "name": "Verify The Price for Paypal",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Verify_the_Price_for_Paypal()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10155313200,
-              "status": "passed"
-            },
-            "line": 98,
-            "name": "Remove the Coupon code and check the Message",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.Remove_the_Coupon_code_and_check_the_Message()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6646614900,
-              "status": "passed"
-            },
-            "line": 99,
-            "name": "navigates back to the Pricing page",
-            "match": {
-              "location": "stepDefinations.Verify_5OFF_Coupon.navigates_back_to_the_Pricing_page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@verify_5OFF_Coupon"
-          },
-          {
-            "name": "@Education"
+            "name": "@for_Existing_User"
           }
         ]
       }
     ],
-    "name": "verify the 5OFF coupon",
+    "name": "verify the Delete40% coupon",
     "description": "",
-    "id": "verify-the-5off-coupon",
+    "id": "verify-the-delete40%-coupon",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/Verify_5Off_Coupon.feature",
+    "uri": "file:src/test/java/features/Verify_40%25_Delete_Coupon.feature",
     "tags": [
       {
-        "name": "@verify_5OFF_Coupon",
+        "name": "@verify_Delete40%Coupon",
         "type": "Tag",
         "location": {
           "line": 1,

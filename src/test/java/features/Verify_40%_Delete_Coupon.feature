@@ -20,7 +20,7 @@ Feature: verify the Delete40% coupon
 @for_Existing_User
 Scenario: verify the Delete40% coupon for existing user
   Given user is on home page click on Sign in button
-  Then enter Username "nishadhiman0027@gmail.com" and Password "Qwerty@1"
+  Then enter Username "nishadhiman0027@gmail.com" and Password "testtest"
   Then User should go to the Pricing page
   Then click on Join Now  option
   Then Apply the discount Coupon Code 

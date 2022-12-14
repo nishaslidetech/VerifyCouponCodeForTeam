@@ -219,7 +219,7 @@ public class Verify_40_Delete_Coupon extends BaseClass {
 	public void verify_the_Price() {
 
 		String verify_price = commonPage.verifyPrice();
-		Assert.assertEquals("Summer35coupon is not applied successfully", verify_price,
+		Assert.assertEquals("40% is not applied successfully", verify_price,
 				monthyPriceAferDeleteDiscountCoupon);
 
 	}

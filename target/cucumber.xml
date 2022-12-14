@@ -1,97 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="400.455">
-    <testcase classname="verify the 5OFF coupon" name="verify the 5OFF coupon for free accounts for individual" time="45.764">
-        <system-out><![CDATA[Given User is on Home Page and click on Login button........................passed
-Then Enter username "Qatest@mailinator.com" and passwordi "123456"..........passed
-Then click on join now monthly option.......................................passed
-Then verify that user should be on checkout page............................passed
-Then select the radio button for coupon code and stripe option..............passed
-Then verify the price for stripe option.....................................passed
-Then remove the coupon code.................................................passed
-Then again select the radio button for coupon code and paypal option........passed
-Then verify the price for paypal............................................passed
-Then remove the coupon code and check the message...........................passed
-Then navigates back to the pricing page.....................................passed
-Then click on join now semi Annual option...................................passed
-Then Verify that user should be on checkout page............................passed
-Then Select the radio button for coupon code and stripe option..............passed
-Then verify the price for stripe options....................................passed
-Then remove the applied coupon code.........................................passed
-Then Again select the radio button for coupon code and paypal option........passed
-Then Verify the price for paypal............................................passed
-Then Remove the coupon code and check the message...........................passed
-Then navigates back to the Pricing Page.....................................passed
-Then click on join now Annual option........................................passed
-Then verify that user should be on Checkout page............................passed
-Then select the radio button for coupon code and Stripe option..............passed
-Then Verify the price for stripe option.....................................passed
-Then Remove the coupon code.................................................passed
-Then again Select the radio button for coupon code and paypal option........passed
-Then verify The price for paypal............................................passed
-Then remove The coupon code and check the message...........................passed
-Then navigates back to the pricing pages....................................passed
-Then click on join now Annual+Design option.................................passed
-Then verify that user should be on checkout Page............................passed
-Then select the Radio button for coupon code and stripe option..............passed
-Then verify the Price for stripe option.....................................passed
-Then Remove the Coupon code.................................................passed
-Then again select The radio button for coupon code and paypal option........passed
-Then verify the Price for paypal............................................passed
-Then remove the Coupon code and check the message...........................passed
-Then Navigates Back to the Pricing Page.....................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="129.324">
+    <testcase classname="verify the Delete40% coupon" name="verify the Delete40% coupon" time="13.501">
+        <system-out><![CDATA[Given User is on Home Page then click on Signup button......................passed
+Then Creates a new ueser....................................................passed
+Then Click on account botton................................................passed
+Then Click on delete button.................................................passed
+Then select one of radio button and clcik on delete profile.................passed
+Then copy the discount coupon code..........................................passed
+Then User will go to the pricing page.......................................passed
+Then Click on Join Now option...............................................passed
+Then Apply the Discount coupon code.........................................passed
+Then Verify the Price.......................................................passed
+Then Delete the user Account................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="verify the 5OFF coupon" name="verify the 5OFF coupon for free accounts for BusinessTeam" time="214.27">
-        <system-out><![CDATA[When select Business Team option............................................passed
-Then click on join now Annual four user licence option......................passed
-Then verify that user should be on Checkout Page............................passed
-Then Select the Radio button for coupon code and stripe option..............passed
-Then verify the price for stripe Option.....................................passed
-Then Remove the Coupon Code.................................................passed
-Then again select the Radio button for coupon code and paypal option........passed
-Then verify the price For paypal............................................passed
-Then remove the coupon Code and check the message...........................passed
-Then Navigates back to the pricing page.....................................passed
-Then click on join now Annual twenty user licence option....................passed
-Then Verify that user should be on Checkout page............................passed
-Then select the radio button for Coupon Code and stripe option..............passed
-Then verify the price For Stripe option.....................................passed
-Then remove the Applied coupon code.........................................passed
-Then again select the radio button For coupon code and paypal option........passed
-Then verify the price for Paypal............................................passed
-Then remove the coupon code nd Check the message............................passed
-Then navigates Back to the pricing page.....................................passed
-Then click on join now unlimted user licence option.........................passed
-Then Verify that user should be on Checkout Page............................passed
-Then Select the Radio button for Coupon code and stripe option..............passed
-Then Verify the price for Stripe option.....................................passed
-Then remove the Applied coupon..............................................passed
-Then again select the radio button for Coupon code and paypal option........passed
-Then Verify the price for Paypal............................................passed
-Then remove the coupon code and check the Message...........................passed
-Then navigates back To the pricing page.....................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="verify the 5OFF coupon" name="verify the 5OFF coupon for free accounts for education" time="140.012">
-        <system-out><![CDATA[When select Education option................................................passed
-Then click on join now Annual user licence option...........................passed
-Then Verify That user should be on checkout page............................passed
-Then Select the radio button for coupon code and Stripe OPtion..............passed
-Then Verify the Price For Stripe Option.....................................passed
-Then Remove the coupon......................................................passed
-Then again select the radio button for coupon Code and paypal option........passed
-Then Verify The price for paypal............................................passed
-Then Remove the coupon code and check the Message...........................passed
-Then navigates back to The pricing page.....................................passed
-Then click on join now unlimted users licence option........................passed
-Then Verify That User Should be on checkout page............................passed
-Then select The Radio button For coupon code and stripe option..............passed
-Then verify the Prices for stripe options...................................passed
-Then remove The Applied Coupon Code.........................................passed
-Then again select the radio button for coupon code and Paypal option........passed
-Then Verify The Price for Paypal............................................passed
-Then Remove the Coupon code and check the Message...........................passed
-Then navigates back to the Pricing page.....................................passed
+    <testcase classname="verify the Delete40% coupon" name="verify the Delete40% coupon for existing user" time="115.521">
+        <system-out><![CDATA[Given user is on home page click on Sign in button..........................passed
+Then enter Username "nishadhiman0027@gmail.com" and Password "testtest".....passed
+Then User should go to the Pricing page.....................................passed
+Then click on Join Now  option..............................................passed
+Then Apply the discount Coupon Code.........................................passed
+Then verify The Price.......................................................passed
+Then Signout from the application...........................................passed
 ]]></system-out>
     </testcase>
 </testsuite>
