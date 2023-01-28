@@ -19,7 +19,7 @@ Feature: verify the Summer35 coupon
 @for_Existing_User
 Scenario: verify the Summer35 coupon for existing user
   Given user is on home page click on sign in button
-  Then Enter Username "nishadhiman0027@gmail.com" and Password "Qwerty@1"
+  Then Enter Username "verifycouponcode@gmail.com" and Password "Qwerty@1"
   Then User should go to the pricing page
   Then click on join Now option
   Then Apply the discount coupon code "summer35"

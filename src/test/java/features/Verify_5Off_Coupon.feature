@@ -6,7 +6,7 @@ Feature: verify the 5OFF coupon
 @individual
   Scenario: verify the 5OFF coupon for free accounts for individual
   Given User is on Home Page and click on Login button
-  Then Enter username "Qatest@mailinator.com" and passwordi "123456"
+  Then Enter username "verifycouponcode@gmail.com" and passwordi "Qwerty@1"
   Then click on join now monthly option  
   Then verify that user should be on checkout page 
   Then select the radio button for coupon code and stripe option
