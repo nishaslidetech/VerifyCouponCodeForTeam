@@ -439,4 +439,31 @@ public class CommonClass extends BaseClass {
 
 	}
 
+	public void chatWindow() throws Throwable {
+
+		try {
+			WebElement iframe = driver.findElement(By.xpath("//iframe[@id = 'chat-widget' or @name = 'chat-widget']"));
+			Thread.sleep(1000);
+			boolean value = iframe.isDisplayed();
+			System.out.println("value = " + value);
+			if (value == true) {
+				driver.switchTo().frame(iframe);
+				WebElement chat1 = wait.until(ExpectedConditions.elementToBeClickable(
+						By.xpath("//div[@role = 'main']//button[@aria-label = 'Minimize window']")));
+				Thread.sleep(1000);
+				chat1.click();
+				Thread.sleep(1000);
+				driver.switchTo().defaultContent();
+				Thread.sleep(1000);
+				driver.switchTo().parentFrame();
+				Thread.sleep(3000);
+			} else {
+
+				System.out.println("chat window does not open");
+			}
+		} catch (NoSuchElementException NCP) {
+
+		}
+	}
+
 }

@@ -41,7 +41,7 @@ public class Verify_40_Delete_Coupon extends BaseClass {
 		try {
 			Thread.sleep(2000);
 			WebElement account = driver.findElement(By.xpath("//a[contains(.,'My Account')]"));
-			js.executeScript("arguments[0].click();", account);
+			account.click();
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
@@ -50,13 +50,14 @@ public class Verify_40_Delete_Coupon extends BaseClass {
 	}
 
 	@Then("Click on delete button")
-	public void click_on_delete_button() {
+	public void click_on_delete_button() throws Throwable {
 		try {
+			commonPage.chatWindow();
 			WebElement Delete_Account = wait
 					.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@id='clicking']")));
 			Thread.sleep(2000);
-			js.executeScript("arguments[0].click();", Delete_Account);
-			Thread.sleep(5000);
+			Delete_Account.click();
+			Thread.sleep(3000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -64,7 +65,7 @@ public class Verify_40_Delete_Coupon extends BaseClass {
 	}
 
 	@Then("select one of radio button and clcik on delete profile")
-	public void select_one_of_radio_button_and_clcik_on_delete_profile() {
+	public void select_one_of_radio_button_and_clcik_on_delete_profile() throws Throwable {
 		try {
 			WebElement radio_button = wait
 					.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@value='option1']")));
@@ -74,8 +75,8 @@ public class Verify_40_Delete_Coupon extends BaseClass {
 
 			WebElement delete_Profile = wait.until(
 					ExpectedConditions.elementToBeClickable(By.xpath("//button[normalize-space()='Delete Profile']")));
-			js.executeScript("arguments[0].scrollIntoView();", delete_Profile);
 			delete_Profile.click();
+			commonPage.chatWindow();
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
@@ -122,8 +123,7 @@ public class Verify_40_Delete_Coupon extends BaseClass {
 
 		String verify_price = commonPage.verifyPrice();
 		System.out.println("verify_price = " + verify_price);
-		Assert.assertEquals("Summer35coupon is not applied successfully", verify_price,
-				monthyPriceAferDeleteDiscountCoupon);
+		Assert.assertEquals("40% is not applied successfully", verify_price, monthyPriceAferDeleteDiscountCoupon);
 
 	}
 
@@ -172,17 +172,18 @@ public class Verify_40_Delete_Coupon extends BaseClass {
 	}
 
 	@Then("click on Join Now  option")
-	public void click_on_Join_Now_option() {
+	public void click_on_Join_Now_option() throws Throwable {
 		try {
 
 			WebElement account = driver.findElement(By.xpath("//a[contains(.,'My Account')]"));
-			js.executeScript("arguments[0].click();", account);
+			account.click();
 			Thread.sleep(3000);
+			commonPage.chatWindow();
 
 			WebElement Delete_Account = wait
 					.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@id='clicking']")));
 			Thread.sleep(2000);
-			js.executeScript("arguments[0].click();", Delete_Account);
+			Delete_Account.click();
 
 			WebElement radio_button = wait
 					.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@value='option1']")));
@@ -192,9 +193,9 @@ public class Verify_40_Delete_Coupon extends BaseClass {
 
 			WebElement delete_Profile = wait.until(
 					ExpectedConditions.elementToBeClickable(By.xpath("//button[normalize-space()='Delete Profile']")));
-			js.executeScript("arguments[0].scrollIntoView();", delete_Profile);
 			delete_Profile.click();
 			Thread.sleep(2000);
+			commonPage.chatWindow();
 
 			commonPage.copyDeleteDiscountCoupon();
 
@@ -219,8 +220,7 @@ public class Verify_40_Delete_Coupon extends BaseClass {
 	public void verify_the_Price() {
 
 		String verify_price = commonPage.verifyPrice();
-		Assert.assertEquals("40% is not applied successfully", verify_price,
-				monthyPriceAferDeleteDiscountCoupon);
+		Assert.assertEquals("40% is not applied successfully", verify_price, monthyPriceAferDeleteDiscountCoupon);
 
 	}
 
